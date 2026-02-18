@@ -129,7 +129,7 @@ export default function Hero() {
           </div> */}
         </div>
 
-        <div id="studio" className="mt-10 grid gap-6 md:grid-cols-3">
+        <div id="studio" className="mt-10 hidden md:grid md:grid-cols-3 gap-6">
           {[
             { k: '10+', v: 'Years delivering bespoke homes' },
             { k: '1', v: 'One accountable team' },
