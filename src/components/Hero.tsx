@@ -49,8 +49,8 @@ export default function Hero() {
         ))}
 
         {/* Readability overlays (luxury, not “dark mode”) */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/35 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/90" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/30 to-transparent" />
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/90" /> */}
       </div>
 
       <div className="relative mx-auto max-w-6xl px-4 pt-16 pb-10 md:pt-24 md:pb-16">
@@ -137,7 +137,7 @@ export default function Hero() {
           ].map((x) => (
             <div
               key={x.k}
-              className="rounded-2xl border border-white/20 bg-black/25 backdrop-blur p-5"
+              className="rounded-2xl border border-white/20 bg-black/15 backdrop-blur p-5"
             >
               <div className="h-display text-3xl text-white">{x.k}</div>
               <div className="mt-1 text-sm text-white/80">{x.v}</div>
