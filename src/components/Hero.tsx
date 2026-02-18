@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { useEffect, useMemo, useState } from 'react';
 
 const slides = [
-  { src: '/hero.jpg', alt: 'PROJECT NAME 1' },
-  { src: '/outside1.jpg', alt: 'PROJECT NAME 2' },
-  { src: '/inside1.jpg', alt: 'PROJECT NAME 3' },
-  { src: '/outside2.jpg', alt: 'PROJECT NAME 4' },
+  { src: '/outside4.jpg', alt: 'PROJECT NAME 1' },
+  { src: '/outside3.jpg', alt: 'PROJECT NAME 2' },
+  { src: '/outside2.jpg.jpg', alt: 'PROJECT NAME 3' },
+  { src: '/outside1.jpg', alt: 'PROJECT NAME 4' },
 ];
 
 const quickProjects = [
