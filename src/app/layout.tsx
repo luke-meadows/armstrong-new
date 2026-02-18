@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: 'Luxury Construction Studio',
+  title: 'Armstrong Build',
   description: 'Bespoke design & build for premium residential projects.',
 };
 
