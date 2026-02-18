@@ -81,7 +81,7 @@ export default function Hero() {
               </a>
               <a
                 href="#projects"
-                className="rounded-full border border-white/35 px-5 py-3 text-sm text-white hover:border-white/55 transition"
+                className="rounded-full border border-white/35 px-5 py-3 text-sm text-white bg-black hover:border-white/55 transition"
               >
                 View projects
               </a>
