@@ -41,9 +41,8 @@ export default function Hero() {
             </h1>
 
             <p className="mt-5 max-w-xl text-white/85 leading-relaxed">
-              Design-led delivery for new builds, major renovations, and
-              architectural extensions — handled end to end by one accountable
-              team.
+              Welcome to Armstrong Build, developing the United Kingdom's most
+              prestigious homes.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
