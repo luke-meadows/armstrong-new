@@ -18,7 +18,7 @@ export default function Hero() {
           preload="metadata"
           poster="/hero.jpg" // optional fallback image
         >
-          {/* <source src="/hero.mp4" type="video/mp4" /> */}
+          <source src="/hero.mp4" type="video/mp4" />
         </video>
 
         {/* Readability overlay */}
@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="w-full grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
             <p className="text-xs tracking-[0.3em] uppercase text-white/85">
-              Luxury residential construction
+              High-end residential construction
             </p>
 
             <h1 className="h-display mt-4 text-4xl leading-[1.05] md:text-6xl text-white">
@@ -59,9 +59,9 @@ export default function Hero() {
               </a>
             </div>
 
-            <div className="mt-6 text-xs text-white/70 tracking-[0.22em] uppercase">
+            {/* <div className="mt-6 text-xs text-white/70 tracking-[0.22em] uppercase">
               Now showing: <span className="text-white/90">{active.alt}</span>
-            </div>
+            </div> */}
           </div>
         </div>
 
