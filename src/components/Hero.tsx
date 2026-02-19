@@ -18,7 +18,7 @@ export default function Hero() {
           preload="metadata"
           poster="/hero.jpg" // optional fallback image
         >
-          <source src="/hero.mp4" type="video/mp4" />
+          {/* <source src="/hero.mp4" type="video/mp4" /> */}
         </video>
 
         {/* Readability overlay */}
