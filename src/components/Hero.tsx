@@ -6,7 +6,8 @@ export default function Hero() {
   const active = useMemo(() => ({ alt: 'Featured project film' }), []);
 
   return (
-    <section className="relative overflow-hidden min-h-screen">
+    // Full-bleed hero (breaks out of any max-w parent wrapper)
+    <section className="relative overflow-hidden bg-black h-[100svh] w-screen max-w-none left-1/2 right-1/2 -ml-[50vw] -mr-[50vw]">
       {/* Video background */}
       <div className="absolute inset-0">
         <video
@@ -16,17 +17,17 @@ export default function Hero() {
           loop
           playsInline
           preload="metadata"
-          poster="/hero.jpg" // optional fallback image
+          poster="/hero.jpg"
         >
-          <source src="/hero2.mp4" type="video/mp4" />
+          <source src="/hero2-cropped.mp4" type="video/mp4" />
         </video>
 
         {/* Readability overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/30 to-transparent" />
       </div>
 
-      {/* Full height wrapper + centered content */}
-      <div className="relative mx-auto max-w-6xl px-4 min-h-screen flex items-center justify-center">
+      {/* Centered content */}
+      <div className="relative mx-auto max-w-6xl px-4 h-[100svh] flex items-center">
         <div className="w-full grid gap-10 md:grid-cols-12">
           <div className="md:col-span-7">
             <p className="text-xs tracking-[0.3em] uppercase text-white/85">
